@@ -57,6 +57,19 @@
     <h2><u>Fill the form:</u></h2>
     <form>
         <ol id="filltheform">
+            <label for="username">username</label>
+            <input type="text" placeholder="Enter your username" required />
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" placeholder="example123@email.com" required />
+            <br>
+            <label for="bio">Bio</label>
+            <input type="text" maxlength="150" name="bio" placeholder="enter your data" required />
+            <br>
+            <label for="upload documents">upload documents</label>
+            <input type="file" accept=".pdf, .doc, .docx" required/>
+            <br>
+            <br>
             <li>In which college Akash completed his graduation.</li><br>
             <input type="radio" name="college"> Emerald's dgree college.<br>
             <input type="radio" name="college"> Emerald's waste college.<br>
@@ -75,7 +88,12 @@
             <br>
             <li>please submit the deatails.</li><br>
             <button>Submit</button><br>
+            <br>
         </ol>
     </form>
+    <h1 style="text-align: center;">Our famous swimmers,</h1>
+    <video width="600px" height="400px" controls>
+        <source src="./video.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
